@@ -19,7 +19,6 @@ export interface TrainerType{
 
 function App() {
   const trainer:Trainer = {trainerName:"Someone", tagName:"Mr."}
-  const personalTrainer:TrainerType = {trainer:trainer}
   return (
     <>
       <Heading firstLine={'24x7 Fitness Studio'} phoneNumber={1010101010}/>

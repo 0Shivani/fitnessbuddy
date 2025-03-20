@@ -7,6 +7,7 @@ const MainContent:React.FC<TrainerType> = ({trainer}:TrainerType):JSX.Element =>
         <div>
             <p>{trainer.tagName}</p>
             <p>{trainer.trainerName} Trainer Number {count}</p>
+            <button onClick={()=>setCount((prev)=>prev+1)}></button>
         </div>
     );
 };
